@@ -1,0 +1,76 @@
+/* Mobile */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-image: url(../imagens/fundo_tela2.png);
+    background-size: cover;
+    height: calc(100% - 20%);
+    width: calc(100% - 2.5%);
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    margin-top: 20%;
+    margin-left: 2.5%;
+    align-items: center;
+}
+
+.headerimg {
+    height: 75%;
+}
+
+.divheaderp {
+    padding-left: 2%;
+}
+
+.pmenor {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: thin;
+}
+
+.pmaior {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    padding-top: 5%;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+}
+
+.divheadergambiarra {
+    width: 11.5%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+}
+
+.divnotificationimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #3f3f3f;
+    border-radius: 50%;
+}
+
+.notificationimg {
+    width: 50%;
+}
