@@ -80,6 +80,7 @@ article img {
     margin-left: -11%;
     margin-top: 180px;
     width: 425px;
+    z-index: 0;
     
 
 
@@ -92,6 +93,7 @@ article img {
     margin-top: 50px;
     margin-left: -10%;
     margin-right: -10%;
+    z-index: 0;
 
 
 
@@ -101,6 +103,7 @@ article img {
 
     margin-bottom: 90px;
     width: 335px;
+    z-index: 0;
 
 }
 
@@ -109,6 +112,7 @@ article img {
     margin-left: 50px;
     opacity: 0.4;
     width: 480px;
+    z-index: 0;
 
 }
 
@@ -118,6 +122,7 @@ article img {
     margin-top: -52%;
     display: flex;
     flex-wrap: wrap;
+    z-index: 2;
 
 
 }
@@ -130,6 +135,7 @@ article img {
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px #24242425;
+    z-index: 2;
 
 
 }
@@ -140,6 +146,7 @@ article img {
     width: 70%;
     font-size: 1.8em;
     font-weight: 400;
+    z-index: 2;
 
 
 }
@@ -156,6 +163,8 @@ article img {
     height: 140px;
     cursor: pointer;
     border-radius: 75px;
+    z-index: 2;
+    
 
 }
 
@@ -166,7 +175,7 @@ article img {
 }
 
 .botao {
-    
+    position: relative;
     margin: 2px;
     margin-top: 25px;
     width: 35px;
@@ -174,12 +183,22 @@ article img {
     border: none;
     border-radius: 75px;
     background-color: rgb(163, 163, 163);
+    z-index: 2;
 }
 
 #blankSpace {
     display: none;
-}
+}  
 
+#gradiente {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(14,14,14,0.7175245098039216) 21%, rgba(0,0,0,1) 100%);
+}
 
 /* -- CSS DESKTOP -- */
 
