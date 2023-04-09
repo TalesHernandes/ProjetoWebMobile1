@@ -176,6 +176,10 @@ article img {
     background-color: rgb(163, 163, 163);
 }
 
+#blankSpace {
+    display: none;
+}
+
 
 /* -- CSS DESKTOP -- */
 
@@ -283,6 +287,12 @@ article img {
         width: 700px;
         height: 90px;
     
+    }
+
+    #blankSpace {
+        width: 100%;
+        height: 4%;
+        display: block;
     }
     
     #carrosel {

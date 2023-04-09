@@ -911,7 +911,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 5%;
+        margin-left: 0%;
     }
     
     .menuIcon {
@@ -1381,7 +1381,7 @@ hr {
         flex-flow: column wrap;
         justify-content: space-around;
         align-items: center;
-        margin-right: 10%;
+        margin-right: 0%;
     }
     
     .divMenu {
