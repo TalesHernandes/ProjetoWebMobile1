@@ -5,8 +5,8 @@
 
     <meta charset="UTF-8">
     <title> Financy HomePage </title>
-    <link rel="stylesheet" type="text/css" href="estilo.css"/>
-    <script type="text/javascript" src="functionmudarImg.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
 
 </head>
 
@@ -18,11 +18,11 @@
     
     <article>
         
-        <img id="img0" src="imagens/card3_inativo.png" alt="img1"/>
+        <img id="img0" src="imagens/card3_inativo.png" alt="img0"/>
 
-        <img id="img1" src="imagens/card1_ativo.png" alt="img2"/>
+        <img id="img1" src="imagens/card1_ativo.png" alt="img1"/>
 
-        <img id="img2" src="imagens/card2_inativo.png" alt="img3"/> 
+        <img id="img2" src="imagens/card2_inativo.png" alt="img2"/> 
 
 
     </article>
@@ -41,12 +41,18 @@
     </article>
 
     <div id="carrosel">
-        
-        <button class="botao" onclick="mudarImg(0)"></button>
-        <button class="botao" onclick="mudarImg(1)"></button>
-        <button class="botao" onclick="mudarImg(2)"></button>
-        <button class="botao" onclick="mudarImg(3)"></button>
-
+        <div class="divBotao" onclick="mudarImg(3)">
+            <button class="botao"></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(0)">
+            <button class="botao" ></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(1)">
+            <button class="botao"></button>
+        </div>
+        <div class="divBotao" onclick="mudarImg(2)">
+            <button class="botao"></button>
+        </div>
     </div>
 
 
