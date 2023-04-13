@@ -36,6 +36,7 @@ header{
 }
 
 #voltar_pagina_inicial{
+	width: 35px !important;
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -75,6 +76,7 @@ header{
 		margin-top: -10px;
 		font-family: 'Public Sans', sans-serif;
 		font-weight: 200;
+		margin-left: -20px;
 	}
 
 #conta {
@@ -91,7 +93,7 @@ header{
 }
 
 
-#conta h2{
+#conta h1{
 	font-weight: 200;
 	margin-bottom: 8px;
 	font-size: 1em;
@@ -359,7 +361,7 @@ hr{
 	}
 	
 	
-	#conta h2{
+	#conta h1{
 		font-weight: 200;
 		margin-bottom: 8px;
 		font-size: 1.5em;
